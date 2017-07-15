@@ -1,0 +1,179 @@
+// Temporary Styles:
+.actions-view {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+}
+// .dispatch-action-container,
+// .receive-action-container,
+// .middleware-container,
+//  {
+//   border: 1px black solid;
+// }
+
+
+// General Reusable Styles
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+.code-snippet {
+  width: 90%;
+  padding: 10px;
+  // background-color: transparent;
+  display: inline-block;
+}
+
+.action-bkg {
+  position: absolute;
+  left: -34%;
+  top: -15%;
+  width: 115%;
+  height: 160%;
+  z-index: 10;
+  background-image: url('http://res.cloudinary.com/djrgebhxz/image/upload/v1498425817/action-bubble-trimmed_tot3iv.png');
+  background-size: 100% 100%;
+}
+
+.thought-bkg {
+  position: absolute;
+  background-image: url('http://res.cloudinary.com/djrgebhxz/image/upload/v1498425992/thought-bubble-trimmed_m9glnw.png');
+  background-size: 100% 100%;
+}
+
+//Dispatch Action
+.dispatch-action-container {
+  position: relative;
+  padding: 10px;
+  h2 {
+    text-align: left;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.dispatch-action-text{
+  transform: translate(0px, 25px) rotate(-25deg);
+}
+
+//Middleware Grid
+//LEAVE STYLES OUT OF HERE FOR READABILITY
+//USE NEW SELECTORS FOR STYLES
+.middleware-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+
+  .grid-title {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+  }
+
+  .out-arrow, .giphy-api {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+  }
+
+  .out-snippet{
+    grid-column: 3 / 5;
+    grid-row: 2 / 4;
+  }
+
+  .in-snippet {
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+  }
+
+  .in-arrow {
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+    opacity: 0;
+  }
+
+  // .in-arrow {
+  //   grid-column: 2 / 3;
+  //   grid-row: 4 / 6;
+  // }
+  // .in-snippet {
+  //   grid-column: 3 / 5;
+  //   grid-row: 4 / 6;
+  // }
+  //
+  .giphy-api {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    align-self: center;
+  }
+}
+
+//middleware styles
+.middleware-container {
+  position: relative;
+  padding: 10px;
+  padding-bottom: 0px;
+
+  h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .thought-bkg {
+    position: absolute;
+    width: 135%;
+    height: 125%;
+    left: -29%;
+    top: -11%;
+  }
+}
+
+.thunk-out,
+.thunk-in {
+  display: flex;
+}
+
+.in-arrow,
+.out-arrow {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+//Receive Action
+.receive-action-container {
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.receive-action-text{
+  transform: translate(-20px, -55px) rotate(25deg);
+
+  .action-bkg {
+    left: -49%;
+    top: -16%;
+    width: 177%;
+    height: 155%;
+  }
+}
+
+
+.action-head {
+  font-family: $head;
+  font-size: 29px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: black;
+}
+ 
+
+ .action-head-2 {
+  font-family: $head;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: black;
+}

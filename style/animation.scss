@@ -1,0 +1,179 @@
+.arrow-container {
+  position: relative;
+}
+
+.slideup {
+  animation-duration: 4s;
+  animation-name: slideup;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+// @keyframes slideup {
+//   0% {
+//     opacity: 1;
+//     transform: translate3d(0,0,0)
+//   }
+//   50% {
+//     opacity: 1;
+//     left: 10%;
+//     bottom: 20%;
+//   }
+//   100% {
+//     opacity: 1;
+//     left: -50%;
+//     bottom: 20%;
+//   }
+//   100% {
+//     opacity: 0;
+//     display: none;
+//   }
+// }
+
+.onesec {
+  animation-duration: 1s;
+  animation-name: onesec;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+@keyframes onesec {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.twosec {
+  animation-duration: 4s;
+  animation-name: twosec;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+@keyframes twosec {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.foursec {
+  animation-duration: 4s;
+  animation-name: foursec;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+@keyframes foursec {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    display: none;
+  }
+}
+
+.slideleft {
+  animation-duration: 3s;
+  animation-name: slideleft;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+
+@keyframes slideleft {
+  0% {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+  25% {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(-300px,0,0);
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.slideright {
+  animation-duration: 5s;
+  animation-name: slideright;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+
+@keyframes slideright {
+  0% {
+    opacity: 0;
+    transform: translate3d(-500px,0,0)
+  }
+  50% {
+    opacity: 1;
+    transform: translate3d(-500px,0,0)
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0,0,0)
+  }
+}
+
+.out-arrow, .out-snippet, .giphy-api {
+  opacity: 0
+}
+
+.twosec {
+  animation-duration: 4s;
+  animation-name: twosec;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+@keyframes twosecstay {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.twosecstay {
+  animation-duration: 4s;
+  animation-name: twosecstay;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}

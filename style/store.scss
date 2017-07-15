@@ -1,0 +1,63 @@
+.store {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.reducers {
+  padding: 1em;
+  display: flex;
+  width: 50%;
+}
+
+.reducer {
+  padding: 2em 1em;
+  border: 1px dashed black;
+  transform: perspective(10px) rotateY(1deg);
+
+}
+
+.current-reducer-0 {
+  background-color: $mustard;
+  background: url("http://res.cloudinary.com/ericwindmill/image/upload/v1498429141/Redux%20Visualizer/yelloW_dots_2.png");
+  background-size: cover;
+  // box-shadow: 0 0 20px $mustard;
+  // border: 1px solid $mustard;
+}
+.current-reducer-1 {
+  
+  background-color: $true-blue;
+  background: url("http://res.cloudinary.com/ericwindmill/image/upload/v1498429003/Redux%20Visualizer/blue_dots_2.png");
+  background-size: cover;
+  // box-shadow: 0 0 20px $true-blue;
+  // border: 1px solid $true-blue;
+}
+.current-reducer-2 {
+  background-color: $firebrick;
+  background: url("http://res.cloudinary.com/ericwindmill/image/upload/v1498429173/Redux%20Visualizer/red_dots_2.png");
+  background-size: cover;
+}
+
+.store-state {
+  width: 40%;
+}
+
+.store-0 {
+  background: rgba($mustard, 0.5);
+
+}
+.store-1 {
+  background: rgba($true-blue, 0.5);
+}
+.store-2 {
+  background: rgba($firebrick, 0.5);
+}
+
+
+.state-preview {
+  border: 1px dashed black;
+  width: 100%;
+  height: 80%;
+  border: 1px dashed black;
+  padding: 10px;
+}

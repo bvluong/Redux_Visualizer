@@ -1,0 +1,26 @@
+// Fonts
+$head: 'Bangers', sans-serif;
+$base-font: 'Source Sans Pro', sans-serif;
+
+//sizes:
+$base-size: 16px;
+$sub-head-size: ($base-size * 1.3);
+$head-size: ($base-size * 2);
+
+// colors
+$light-blue: #bbe5f9;
+$true-blue: #3387c4;
+$firebrick: #be2826;
+$mustard: #ffe700;
+
+
+//general
+.highlight {
+  font-weight: 700;
+  color: $firebrick;
+}
+
+
+
+
+
